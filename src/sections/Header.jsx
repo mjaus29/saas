@@ -55,9 +55,10 @@ const Header = () => {
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
                   <NavLink title="features" />
-                  <div className="dot"></div>
+                  <div className="dot" />
                   <NavLink title="pricing" />
                 </li>
+
                 <li className="nav-logo">
                   <LinkScroll
                     to="hero"
@@ -76,11 +77,12 @@ const Header = () => {
                     />
                   </LinkScroll>
                 </li>
+
                 <li className="nav-li">
                   <NavLink title="faq" />
-                  <div className="dot"></div>
+                  <div className="dot" />
                   <NavLink title="download" />
-                </li>{" "}
+                </li>
               </ul>
             </nav>
 
@@ -117,4 +119,5 @@ const Header = () => {
     </header>
   );
 };
+
 export default Header;
